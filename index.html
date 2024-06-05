@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths Experation</title>
+</head>
+<body>
+    <h1>Multiplication Table</h1>
+ 
+    <div id="table"></div>
+    <br>
+
+
+
+<script>
+let userNum = prompt("Enter a Number which you like a table of number")
+
+
+let number = userNum;
+let table = "";
+for (let i = 1; i <= 10; i++) {
+    table += `${userNum} x ${i} = ${userNum * i} <br> \n`; 
+}
+document.write(table)
+console.log(table);
+
+
+</script>
+
+</body>
+</html>
